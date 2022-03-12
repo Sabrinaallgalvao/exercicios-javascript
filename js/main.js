@@ -91,4 +91,5 @@ const arrayDeAnimais = [
   { animal: 'Cobra', temPelo: false },
 ]
 
-console.log(ex8(arrayDeAnimais))
+// console.log(ex8(arrayDeAnimais))
+
