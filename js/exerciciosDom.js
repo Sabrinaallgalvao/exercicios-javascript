@@ -44,22 +44,47 @@ function ex5() {
 function ex6() {
   const paragrafo = document.querySelector('p')
   const listaDeClasses = paragrafo.classList
-  
   for (item of listaDeClasses) {
     console.log(item)
   }
 }
 // ex6()
 // 7 - Faça uma função que coloque um atributo alt e coloque o valor: "Imagem gerada aleatoriamente" na imagem que está no documento
+function ex7(){
+    let imagem = document.querySelector('img')
+    imagem = 'Imagem gerada aleatóriamente'
+    
+}
+// ex7()
+// 8 - Faça uma função que selecione todas as tags p e div do documento e coloque uma borda de 1px, sólida e amarela nos itens pares da lista.
+function ex8(){
+    const selecao = document.querySelectorAll('p','div')
+    selecao.style.backgroundColor = yellow
 
-// 8 - Faça uma fução que selecione todas as tags p e div do documento e coloque uma borda de 1px, sólida e amarela nos itens pares da lista.
+}
+
+// ex8()
 
 // 9 - Faça uma função que altere todo o conteúdo do body para uma string chamada "Alterado"
 
 // 10 - Faça uma função que que crie um h1 dinamicamente, tenha o conteudo de 'Título' e insira no body.
-
+function ex10(){
+    const titulo = document.createElement('h1')
+    titulo.innerHTML = 'Título'
+}
+ex10()
 // 11 - Faça uma função que crie uma imagem dinamicamente e que tenha o atributo src "https://picsum.photos/200".
 
-// 12 - Faça uma fução que REMOVA todos as tags p.
+// 12 - Faça uma função que REMOVA todos as tags p.~
+function ex12(){
+    const paragrafo = document.querySelectorAll('p')
+    paragrafo.remove
+}
+// ex12()
 
-// 13 - Faça uma função que mude a cord do body para vermelho ao clicar no botao.
+// 13 - Faça uma função que mude a cor do body para vermelho ao clicar no botao.
+
+function ex13(){
+    const cor = document.body
+}
+// ex13()
